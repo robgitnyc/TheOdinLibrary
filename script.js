@@ -4,14 +4,28 @@ let myLibrary = [
     {
         title: "Don Quijote",
         author: "Miguel de Cervantes",
-        pages: 900,
-        read: false,
+        pages: 1345,
+        read: true,
  
     },
     {
-        title: "Taras Bulba",
-        author: "Niko Kazansakis",
-        pages: 250,
+        title: "EL amor en los tiempos del cólera",
+        author: "Gabriel Garcia Marquez",
+        pages: 490,
+        read: false,
+   
+    },
+    {
+        title: "Crime and punishment",
+        author: "Fiodor Dostoyevski",
+        pages: 650,
+        read: true,
+   
+    },
+    {
+        title: "The torrents of spring",
+        author: "Ernest Hemingway",
+        pages: 96,
         read: false,
    
     },
