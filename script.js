@@ -9,9 +9,9 @@ let myLibrary = [
  
     },
     {
-        title: "EL amor en los tiempos del cólera",
+        title: "Cien años de soledad",
         author: "Gabriel Garcia Marquez",
-        pages: 490,
+        pages: 471,
         read: false,
    
     },
