@@ -64,7 +64,10 @@ function displayBooks() {
         });
         div1.appendChild(toggleReadBtn);
     }
+    //limpiar display de error:
+    document.querySelector("#display").textContent = "";
 
+    
 }
 
 //boton que muestra libros y llama a displayBooks()
@@ -154,6 +157,7 @@ newBookBtn.addEventListener("click", () => {
             display.textContent = "Error: book name and author fields can't be empty"
             return;
         }
+        //limpiar display de error
         document.querySelector("#display").textContent = "";
                 
         let newBook = new MakeBook(inputTitle.value, inputAuthor.value, inputPages.value, inputRead.checked)
@@ -185,7 +189,6 @@ newBookBtn.addEventListener("click", () => {
             idNum = e.currentTarget.parentNode.getAttribute("id");
             e.currentTarget.parentNode.remove();
             console.log(myLibrary.splice(idNum,1));
-        // console.log(idNum);
         });
         removeBook.textContent= "Remove from library";
         div1.appendChild(removeBook);
@@ -203,7 +206,7 @@ newBookBtn.addEventListener("click", () => {
             
         });
         div1.appendChild(toggleReadBtn);
-        //limpiar capos:
+        //limpiar campos:
         inputTitle.value = "";
         inputAuthor.value = "";
         inputRead.checked = false;
