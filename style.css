@@ -35,15 +35,16 @@ body {
 }
 .bookCard {
     padding: 8px;
-    min-width: 220px;
+    width: 250px;
     display: flex;
     flex-direction: column;
     border: 1px solid white;
     border-radius: 10px;
     margin: 5px;
-    
-
+        
 }
+
+
 ul {
     list-style: none;
     display: flex;
@@ -66,9 +67,12 @@ button {
     border-radius: 2px;
 }
 #display {
-    height: 20px;
+    min-height: 20px;
     text-align: center;
 }
 div {
     padding: 3px;
+}
+#buttons > button, #bbb > button {
+    border-style: solid;
 }
